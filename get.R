@@ -75,8 +75,7 @@ for (i in 1:max) {
   
 }
 
-
-
+readr::write_excel_csv(articles, "test_run.csv")
 
 
 
